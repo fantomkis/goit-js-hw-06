@@ -8,7 +8,7 @@ const btnInk = document.querySelector(
 
 const valueEl = document.querySelector("#value");
 
-let countenVelue = 1;
+let countenVelue = 0;
 
 btnDsk.addEventListener("click", () => {
   countenVelue -= 1;
