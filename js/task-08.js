@@ -13,8 +13,8 @@ function formEl(event) {
     return alert("Потрібен Email");
   }
   const obj = {
-    email: email.value,
-    password: password.value,
+    email: form.elements.email.value,
+    password: form.elements.password.value,
   };
 
   console.log(obj);
