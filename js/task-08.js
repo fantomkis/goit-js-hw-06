@@ -11,6 +11,8 @@ function formEl(event) {
 
   if (email.value === "") {
     return alert("Потрібен Email");
+  } else if (password.value === "") {
+    return alert("Потрібен password");
   }
   const obj = {
     email: form.elements.email.value,
